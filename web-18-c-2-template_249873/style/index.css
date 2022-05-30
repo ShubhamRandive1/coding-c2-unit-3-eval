@@ -1,0 +1,35 @@
+#navbar{
+    display:flex;
+    justify-content:flex-end;
+    background-color:rgb(114, 114, 238);
+    color:black;
+    padding:3vh;
+    gap:1vh;
+    font-size:x-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+#navbar a:hover{
+    color:white;
+}
+
+#menu>img{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:auto;
+    gap:5vh;
+
+}
+img{
+    height: 360px;;
+    width:360px;
+}
+
+#menu{
+    display:inline-block;
+    padding:1vh;
+}

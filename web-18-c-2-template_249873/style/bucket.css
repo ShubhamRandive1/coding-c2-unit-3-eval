@@ -1,0 +1,47 @@
+#navbar{
+    display:flex;
+    justify-content:flex-end;
+    background-color:rgb(114, 114, 238);
+    color:black;
+    padding:3vh;
+    gap:1vh;
+    font-size:x-large;
+    font-weight: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+a{
+    text-decoration:none;
+    color:black;
+}
+#navbar a:hover{
+    color:white;
+}
+
+#bucket>img{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    grid-template-rows:auto;
+    gap:1vh;
+
+}
+img{
+    height: 360px;;
+    width:360px;
+}
+
+#bucket{
+    display:inline-block;
+    padding:1vh;
+}
+
+#confirm_checkout{
+
+    font-size:x-large;
+    font-weight:bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    display:flex;
+    justify-content:flex-start;
+}
+h3{
+    font-size:x-large;
+}
